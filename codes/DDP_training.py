@@ -142,7 +142,7 @@ def main():
     
     ratio = 0.035 # the ratio of positive samples to negative samples in the training set
     os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
-    data_path = '../data/evoscape_train_test/train/train.csv'
+    data_path = '../data/sample_demo/test_H1N1_HA.csv'
     esmfold_path = '../esmfold_finetuned.pt'
     saved_model_prefix = '../evoscape'
     batch_size = 2
