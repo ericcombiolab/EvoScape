@@ -4,7 +4,7 @@ This repository contains the source code, model weights of EvoScape, as well as 
 # Usage
 ## Install EvoScape
 ```
-git clone
+git clone https://github.com/ericcombiolab/EvoScape.git
 conda env create -f evoscape_environment.yml
 ```
 ## Train EvoScape
