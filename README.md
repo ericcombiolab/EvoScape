@@ -7,7 +7,7 @@ This repository contains the source code, model weights of EvoScape, as well as 
 git clone https://github.com/ericcombiolab/EvoScape.git
 conda env create -f evoscape_environment.yml
 ```
-To download EvoScape model weights, you may download ```esmfold_finetuned.pt``` and ```evoscape_weights.pt``` from the [Hugging Face](https://huggingface.co/charleswang335/EvoScape/tree/main). Note that there is an additional EvoScape model weight file ```evoscape_weights_without_xbb.pt```, which is tranined on DMS datasets without SARS-CoV-2 XBB strains.
+To download EvoScape model weights, you may download ```esmfold_finetuned.pt``` and ```evoscape_weights.pt``` from the [Hugging Face](https://huggingface.co/charleswang335/EvoScape/tree/main). Note that there is an additional model weight file ```evoscape_weights_without_xbb.pt```, which is tranined on DMS datasets excluding SARS-CoV-2 XBB strains. For typical use cases, you can ignore `evoscape_weights_without_xbb.pt`.
 ## Train EvoScape
 The script for training EvoScape is in ```DDP_training.py```. Before training EvoScape, you need to set the user-defined inputs first. They are listed and explained as follows:
 ```
