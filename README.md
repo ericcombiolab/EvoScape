@@ -57,6 +57,5 @@ pos,wildtype,mutant,label
 ```
 # Citation
 If you would like to cite EvoScape, please cite the following paper:
-A structure-informed evolutionary model for predicting viral immune escape and evolution
-Chonghao Wang, Lu Zhang
-bioRxiv 2025.07.31.667864; doi: https://doi.org/10.1101/2025.07.31.667864
+
+Wang, C., Zhang, L.: A structure-informed evolutionary model for predicting viral immune escape and evolution. bioRxiv 2025.07.31.667864; doi: https://doi.org/10.1101/2025.07.31.667864
