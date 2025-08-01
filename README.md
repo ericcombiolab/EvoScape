@@ -48,7 +48,7 @@ For inference, EvoScape requires two types of inputs: wild-type sequences, mutan
 raw_seq,mut_seq
 ...,...
 ```
-We provide sample training and test datasets for EvoScape in ```data/evoscape_train_test/```. Note that there are additional columns in the sample data, but they are not a must for EvoScape.
+We provide a sample dataset for EvoScape in ```data/sample_demo/```. Note that there are additional columns in the sample data, but they are not a must for EvoScape.
 # DMS datasets
 In total, 11 DMS datasets were collected. You may find their sources in the supplementary file of the EvoScape paper. The raw files of these datasets are stored in ```data/raw_DMS```. The processed files are stored in ```data/processed_DMS```, which have a uniform format as follows:
 ```
