@@ -52,7 +52,7 @@ if __name__ == '__main__':
     # output_path is the path to the output file
     batch_size = 1
     device_id = 0
-    data_path = '../data/evoscape_train_test/test/test_H1N1_HA.csv'
+    data_path = '../data/sample_demo/test_H1N1_HA.csv'
     esmfold_path = '../esmfold_finetuned.pt'
     state_dict_path = '../evoscape_weights.pt'
     output_path = '../output.csv'
